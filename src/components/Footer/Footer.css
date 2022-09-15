@@ -9,10 +9,15 @@
 
 .dcl.footer.full-width {
   padding: 0;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 
 .ui.divider {
-  margin: 31px 0;
+  margin: 50px 0 31px;
+  width: 100%;
 }
 
 .dcl.footer .main-footer {
@@ -54,6 +59,7 @@
 .dcl.footer .social-links {
   display: flex;
   align-items: center;
+  margin-left: 40px;
 }
 
 .dcl.footer .social-links .social-icon {
@@ -143,6 +149,7 @@
   .dcl.footer .secondary-footer {
     flex-flow: column;
     align-items: center;
+    padding-bottom: 60px;
   }
 
   .dcl.footer.fullscreen {
